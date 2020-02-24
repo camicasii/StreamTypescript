@@ -1,0 +1,31 @@
+{
+  "name": "upload-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon  src/server.ts --exec ts-node "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.2",
+    "@types/mongodb": "^3.3.16",
+    "@types/morgan": "^1.7.37",
+    "@types/multer": "^1.4.2",
+    "nodemon": "^2.0.2"
+  }
+}
