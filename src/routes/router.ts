@@ -1,11 +1,10 @@
-import { Router  } from "express";
+import { Router, Response } from "express";
 import { getTrack, uploadTrack } from "../controllers/tracksControllers";
 
 
-const router:Router =Router();
+const router: Router = Router();
 
-router.get("/tracks/:trackID",getTrack);
-
-router.post("/tracks/:trackID",uploadTrack);
+router.get("/tracks/:trackID", getTrack);
+router.post("/tracks/", uploadTrack);
 
 export default router;
